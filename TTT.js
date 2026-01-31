@@ -21,7 +21,7 @@ const winCombos=[
 const resetGame=()=>{
     turnX=true;
     enablebtns();
-    gameOver=true
+    gameOver=false;
     msgContainer.classList.add("hide");
 
 };
