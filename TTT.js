@@ -1,3 +1,4 @@
+//javascript code
 let btns=document.querySelectorAll(".btn");
 let resetBtn=document.querySelector("#reset-btn");
 let newGameBtn=document.querySelector("#start-btn");
