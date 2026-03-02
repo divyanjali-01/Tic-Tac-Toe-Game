@@ -8,59 +8,27 @@ h1{
 }
 .btn{
     background-color:rgb(248, 247, 247);
-    width:28vw;
-    aspect-ratio:1/1;
-    border-radius: 15%;
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
     border: none;
     margin: 5px;
     box-shadow: 2px 2px 5px grey;
-    font-size:10vw;
+    font-size:10vmin;
     font-weight:bold;
     color:brown;
 
     
 }
-@media (max-width: 600px) {
-
-  body {
-    text-align: center;
-  }
-
-  h1 {
-    font-size: 24px;
-  }
-
-  h2 {
-    font-size: 16px;
-  }
-
-  .btn {
-    height: 100px;
-    width: 100px;
-    margin: 10px;
-  }
-
-  .btn-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-}
-
 .btn-container{
     display: flex;
     justify-content: center;
-    flex-wrap:wrap;
-    max-width:350px;
-    margin:auto;
 
 }
 #reset-btn{
     margin-top:20px;
-    padding:8px 20px;
-    font-size:4vw;
-    min-width:120px;
-    border-radius:8px;
+    height:30px;
+    width:100px;
     font-size:10px;
     border-radius:10px;
     border:3px solid black;
@@ -84,18 +52,16 @@ h1{
 
 }
 #status{
-    font-size:5vw;;
+    height:5vmin;
+    font-size:30px;
     font-weight:bold;
     color:rgb(26, 76, 107);
-    margin:15px 0;
 }
 
 #start-btn{
     margin-bottom:20px;
-    padding:8px 20px;
-    font-size:4vw;
-    min-width:120px;
-    border-radius:8px;
+    height:30px;
+    width:100px;
     font-size:10px;
     border-radius:10px;
     border:3px solid black;
@@ -114,4 +80,3 @@ h1{
 .hide{
     display:none;
 }
-/* Mobile Responsive Design */
