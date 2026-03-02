@@ -1,20 +1,36 @@
 body{
     text-align:center;
+    font-display: auto;
     background-color: rgb(202, 178, 178);
+    
 
 }
+@media (max-width: 600px) {
+    .btn {
+        width: 15vw;
+        height: 15vw;
+        font-size: 22px;
+    }
+    #status {
+        font-size: 20px;
+    }
+
+}
+
 h1{
     color:black;
+    font-display: auto;
 }
 .btn{
     background-color:rgb(248, 247, 247);
-    height: 100px;
-    width: 100px;
+    width:8vw;
+    height:8vw;
+    aspect-ratio: 1/1;
     border-radius: 20%;
     border: none;
     margin: 5px;
     box-shadow: 2px 2px 5px grey;
-    font-size:10vmin;
+    font-size: 7vw;
     font-weight:bold;
     color:brown;
 
@@ -22,14 +38,13 @@ h1{
 }
 .btn-container{
     display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
     justify-content: center;
-
 }
 #reset-btn{
-    margin-top:20px;
-    height:30px;
-    width:100px;
-    font-size:10px;
+    margin-top: 20px;
+    font-display: auto;
     border-radius:10px;
     border:3px solid black;
     background-color:#f48014;
@@ -59,10 +74,9 @@ h1{
 }
 
 #start-btn{
-    margin-bottom:20px;
-    height:30px;
-    width:100px;
-    font-size:10px;
+    
+    margin-top:8%;
+    font-display: auto;
     border-radius:10px;
     border:3px solid black;
     background-color:#2ec98b;
@@ -75,7 +89,10 @@ h1{
     cursor:pointer;
 }
 .msg-container{
-    height:15vmin;
+    display:flex;
+    flex-direction:column;
+    font-size: 10vw;
+    align-items:center;
 }
 .hide{
     display:none;
